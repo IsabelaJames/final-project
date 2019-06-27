@@ -1,0 +1,400 @@
+*{
+  color:inherit;
+  padding: 0px;
+  margin: 0px;
+
+}
+body {
+  background-color: #497999;
+}
+
+.firstrow{
+  display: flex;
+  padding: 2px 0px;
+  justify-content:space-between;
+  font-family: 'La Belle Aurore', cursive;
+  background-color: #497999;
+  color: white;
+}
+.welcomename{
+  padding: 5px;
+}
+
+.name{
+  color: black;
+}
+.sub{
+  color: black;
+}
+
+.email{
+  color: black;
+}
+
+.password{
+  color: black;
+}
+
+.forms{
+  display: flex;
+  margin-top: 10px;
+}
+
+.logo{
+  object-fit: cover;
+}
+
+.image{
+  object-fit: cover;
+}
+
+.secondrow{
+  display: flex;
+  justify-content: center;
+  background-image: url('./assets/background3.png');
+}
+
+.thirdrow{
+  display: flex;
+  justify-content:space-around;
+  background-color: #497999;
+  font-family: 'La Belle Aurore', cursive;
+  color: white;
+  text-decoration: underline;
+  text-decoration-style:wavy;
+  font-size: 24px;
+}
+
+#navigate:hover {
+  color: white;
+text-decoration: underline;
+text-decoration-style: wavy;
+text-decoration-color: #85c0e6
+}
+
+.fourthrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #497999;
+}
+
+.look{
+  font-family: 'La Belle Aurore', cursive;
+  background-color: #497999;
+  color: white;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 0px:
+}
+
+main{
+  background-color: #497999;
+}
+
+.welcome{
+  font-family: 'La Belle Aurore', cursive;
+  background-color: #497999;
+  color: white;
+  text-align: center;
+  width: 80%
+}
+
+.headers{
+  font-family: 'La Belle Aurore', cursive;
+  background-color: #497999;
+  color: white;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 0px;
+}
+
+h4{
+  font-family: 'Dosis', sans-serif;
+  margin: 0px 0px 20px 0px;
+}
+
+#look{
+margin: 10px 5px 0px 20px;
+}
+
+.column3{
+  margin: 0px 200px;
+  font-family: 'La Belle Aurore', cursive;
+  background-color: #497999;
+  color: white;
+  text-align: center;
+  width: 70%;
+}
+
+.img{
+  margin: 5px 0px 15px 0px;
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border: 5px solid white;
+  border-radius: 7px;
+}
+
+.flex {
+ display: flex;
+ width: 100%;
+ justify-content: flex-start;
+}
+
+.h4{
+  font-family: 'La Belle Aurore', cursive;
+  color: white;
+  margin: 5px 0px 0px 10px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.trend{
+  color: white;
+  background-color: #497999;
+  margin: 0px 0px 5px 10px;
+  font-family: 'Stylish', sans-serif;
+  font-size: 14px;
+  text-align: left;
+}
+
+.links{
+  color: white;
+}
+
+button, .btn {
+    -webkit-transition: background-color 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: background-color 250ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.slick-slide img {
+    display: block;
+}
+.text-left {
+    text-align: left !important;
+}
+.list-inline, .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.ct-map__section .container {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.ct-u-padding-bottom-40 {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.ct-map {
+    position: relative;
+    width: 562px;
+    -webkit-transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    margin-top: 0px;
+}
+.ct-city.stone {
+    top: -12%;
+    left: 40%;
+}
+.ct-popup {
+    background: #1aa6e2;
+    border-radius: 50%;
+    display: 100%;
+    width: 150px;
+    height: 140px;
+    text-align: center;
+    color: white;
+    padding: 40px 40px 20px;
+    overflow: hidden;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 12%;
+    -ms-transform-origin: 12%;
+    transform-origin: 12%;
+    opacity: 0;
+    -webkit-transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+.ct-popup > .ct-popup__inner, .ct-popup > .inner {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+}
+.ct-popup__name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 14px;
+    display: block;
+}
+.ct-popup__content {
+    font-size: 15px;
+    font-family: 'Helvetica', sans-serif;
+}
+.ct-city {
+    position: absolute;
+    width: 334px;
+    height: 334px;
+}
+.ct-city__button .ct-close {
+    display: none;
+}
+.ct-city.active .ct-city__button .ct-close {
+    display: block;
+}
+.ct-city.active .ct-city__button .ct-plus, .ct-city.active .ct-city__button .ct-city__name {
+    display: none;
+}
+.ct-city__name {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    width: 240px;
+    left: 50%;
+    margin-left: -120px;
+    margin-top: 3px;
+    font-family: 'Raleway', sans-serif;
+    color: #4095F5;
+    font-weight: 900;
+}
+.ct-city.orlando {
+    top: 35%;
+    left: 43%;
+}
+.ct-city {
+    position: absolute;
+    width: 334px;
+    height: 334px;
+}
+.ct-city__button {
+    background: none;
+    border: none;
+    z-index: 30;
+    position: absolute;
+    top: 75%;
+    left: 23%;
+    outline: none;
+}
+
+.ct-city.orlando2 {
+    top: 25%;
+    left: 88%;
+}
+.ct-content {
+    width: 100%;
+    max-width: 537px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ct-map__section .container .ct-section-header {
+    padding-bottom: 10px;
+}
+.ct-content .ct-section-header {
+    margin-top: 0px;
+    padding-top: 83px;
+    letter-spacing: 0.35px;
+}
+.ct-section-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #101f1d;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 0px;
+    letter-spacing: 1.25px;
+    margin-bottom: 5px;
+}
+.ct-content .ct-section-header small {
+    margin-bottom: -4px;
+    padding-top: 12px;
+    letter-spacing: 0px;
+}
+.ct-section-header small {
+    color: #303030;
+    font-size: 22px;
+    display: block;
+    font-weight: 600;
+    padding-top: 0px;
+    margin-bottom: -12px;
+    text-transform: none;
+}
+.ct-city.active {
+    z-index: 30;
+}
+.ct-city.active .ct-popup {
+    opacity: 1;
+    display: inline-table;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    position: relative;
+    z-index: 20;
+}
+.ct-content li {
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 4px;
+}
+.ct-content li:before {
+    content: '\f0da';
+    font-family: 'FontAwesome';
+    color: #f59331;
+    padding-right: 13px;
+}
+.ct-content .btn {
+    margin-top: 0px;
+}
+.btn.btn-motive {
+    background: #f59331;
+    color: white;
+}
+.btn {
+    font-size: 15px;
+    padding: 0px 46px 18px;
+    line-height: 1;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    letter-spacing: 0.3px;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+}
+
+.links{
+  color: blue;
+  font-family: 'Dosis', sans-serif;
+  text-decoration: underline;
+}
+
+#mapp{
+  margin-left: 50px;
+  margin-top: 0px;
+}
+
+.more{
+  font-family: 'La Belle Aurore', cursive;
+  color: white;
+  font-size: 27px;
+  text-align: left;
+  margin: 0px 0px 0px 70px;
+}

@@ -1,0 +1,125 @@
+*{
+  color:inherit;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #497999;
+}
+
+.style{
+  color:inherit;
+}
+.firstrow{
+  display: flex;
+  padding: 2px 0px;
+  justify-content:flex-end;
+  font-family: 'La Belle Aurore', cursive;
+  background-color: #497999;
+  color: white;
+
+}
+.sub{
+  color: black;
+}
+
+.forms{
+  display:inline-block;
+  margin-top: 10px;
+}
+
+.logo{
+  object-fit: cover;
+}
+
+.image{
+  object-fit: cover;
+}
+
+.secondrow{
+  display: flex;
+  justify-content: center;
+  background-image: url('./assets/background3.png')
+}
+
+.thirdrow{
+  display: flex;
+  justify-content:space-around;
+  background-color: #497999;
+  font-family: 'La Belle Aurore', cursive;
+  color: white;
+  text-decoration: underline;
+  text-decoration-style:wavy;
+  font-size: 24px;
+  margin: 0px
+}
+#navigate:hover {
+  color: white;
+text-decoration: underline;
+text-decoration-style: wavy;
+text-decoration-color: #85c0e6
+}
+
+section{
+  background-color: #497999;
+  margin: 0px
+}
+
+.style{
+    background-color: #497999;
+    margin: 0px;
+  }
+
+.h3{
+  margin: 10px 50px 3px 50px;
+  color: white;
+  margin: 20px;
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 50px;
+  text-align: left;
+}
+
+.img{
+  margin: 0px 0px 5px 10px;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid white;
+  border-radius: 7px;
+}
+
+.flex {
+ display: flex;
+ width: 50%;
+ justify-content: flex-start;
+}
+
+
+nav {
+ display: flex;
+ margin: 20px 0px 50px 10px;
+}
+
+.res{
+  color: white;
+  background-color: #497999;
+  margin: 0px 0px 10px 25px;
+  font-family: 'Stylish', sans-serif;
+  font-size: 16px;
+}
+
+.h4{
+  font-family: 'Lobster', cursive;
+  color: white;
+  margin: 0px 0px 5px 25px;
+  font-size: 20px;
+}
+
+#addy{
+  color: #064073;
+}
+
+
+.resta{
+  color: #85c0e6
+}

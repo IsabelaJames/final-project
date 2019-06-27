@@ -1,0 +1,127 @@
+*{
+  color:inherit;
+}
+.firstrow{
+  display: flex;
+  padding: 2px 0px;
+  justify-content:flex-end;
+  font-family: 'La Belle Aurore', cursive;
+  background-color: #497999;
+  color: white;
+
+}
+.sub{
+  color: black;
+}
+
+.forms{
+  display:inline-block;
+  margin-top: 10px;
+}
+
+.welcomename{
+  display:flex;
+  justify-content: flex-start;
+  display:inline-block;
+  margin-top:10px;
+}
+
+
+.logo{
+  object-fit: cover;
+}
+
+.image{
+  object-fit: cover;
+}
+
+.secondrow{
+  display: flex;
+  justify-content: center;
+  background-image: url('./assets/background3.png')
+}
+
+.thirdrow{
+  display: flex;
+  justify-content:space-around;
+  background-color: #497999;
+  font-family: 'La Belle Aurore', cursive;
+  color: white;
+  text-decoration: underline;
+  text-decoration-style:wavy;
+  font-size: 24px;
+
+}
+#navigate:hover {
+  color: white;
+text-decoration: underline;
+text-decoration-style: wavy;
+text-decoration-color: #85c0e6
+}
+
+
+.box{
+  background-color: #497999;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'La Belle Aurore', cursive;
+}
+.box1{
+  width: 33%;
+  padding: 10px
+}
+.box2{
+  width: 33%;
+  padding: 10px
+}
+.box3{
+  width: 33%;
+  padding: 10px;
+}
+p{
+  font-family: 'Dosis', sans-serif;
+}
+h1{
+    text-align: center
+}
+
+.aboutus{
+  color: #85c0e6
+}
+
+.profile{
+  width: 150px;
+  height: 220px;
+  object-fit: cover;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+#isaa{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+#gabriela{
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+#bella{
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.p{
+  margin-bottom: 0px;
+}
+
+.ournames{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
